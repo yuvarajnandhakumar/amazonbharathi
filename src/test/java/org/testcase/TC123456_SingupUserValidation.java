@@ -20,7 +20,7 @@ public class TC123456_SingupUserValidation extends CommonAction{
 		passURL("https://www.amazon.in");
 		hp.singUpValidation();
 		hp.forgetPassword();
-		hp.Login();
+		//hp.Login();
 	}
 	
 	@Test(groups="april")
