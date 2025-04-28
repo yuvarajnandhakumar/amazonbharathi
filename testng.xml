@@ -3,15 +3,15 @@
 <suite name="Suite">
   <test name="Test">
   
-  <groups>
+ <!--  <groups>
   <run>
   <include name="april"></include>
   </run>
-  </groups>
+  </groups> -->
   
     <classes>
       <class name="org.testcase.TC123456_SingupUserValidation"/>
-   <!--    <class name="org.testcase.Tc12233_SearchData"/> -->
+     <class name="org.testcase.Tc12233_SearchData"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

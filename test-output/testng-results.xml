@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[browser launched]]>
@@ -7,26 +7,13 @@
     <line>
       <![CDATA[user entered value]]>
     </line>
-    <line>
-      <![CDATA[browser launched]]>
-    </line>
-    <line>
-      <![CDATA[user entered value]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-04-26T10:27:31Z" name="Suite" finished-at="2025-04-26T10:27:52Z" duration-ms="21235">
+  <suite started-at="2025-04-28T10:23:10Z" name="Default suite" finished-at="2025-04-28T10:24:01Z" duration-ms="51481">
     <groups>
-      <group name="sanity">
-        <method signature="TC123456_SingupUserValidation.Test1232()[pri:0, instance:org.testcase.TC123456_SingupUserValidation@ec756bd]" name="Test1232" class="org.testcase.TC123456_SingupUserValidation"/>
-      </group> <!-- sanity -->
-      <group name="april">
-        <method signature="TC123456_SingupUserValidation.Test123()[pri:0, instance:org.testcase.TC123456_SingupUserValidation@ec756bd]" name="Test123" class="org.testcase.TC123456_SingupUserValidation"/>
-        <method signature="TC123456_SingupUserValidation.Test1232()[pri:0, instance:org.testcase.TC123456_SingupUserValidation@ec756bd]" name="Test1232" class="org.testcase.TC123456_SingupUserValidation"/>
-      </group> <!-- april -->
     </groups>
-    <test started-at="2025-04-26T10:27:31Z" name="Test" finished-at="2025-04-26T10:27:52Z" duration-ms="21235">
-      <class name="org.testcase.TC123456_SingupUserValidation">
-        <test-method signature="Test123()[pri:0, instance:org.testcase.TC123456_SingupUserValidation@ec756bd]" started-at="2025-04-26T15:57:31Z" name="Test123" finished-at="2025-04-26T15:57:42Z" duration-ms="11017" status="PASS">
+    <test started-at="2025-04-28T10:23:10Z" name="Default test" finished-at="2025-04-28T10:24:01Z" duration-ms="51481">
+      <class name="org.testcase.Tc12233_SearchData">
+        <test-method signature="Test343()[pri:0, instance:org.testcase.Tc12233_SearchData@5bfa9431]" started-at="2025-04-28T15:53:10Z" name="Test343" finished-at="2025-04-28T15:54:01Z" duration-ms="51451" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser launched]]>
@@ -35,18 +22,8 @@
               <![CDATA[user entered value]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test123 -->
-        <test-method signature="Test1232()[pri:0, instance:org.testcase.TC123456_SingupUserValidation@ec756bd]" started-at="2025-04-26T15:57:42Z" name="Test1232" finished-at="2025-04-26T15:57:52Z" duration-ms="10181" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[browser launched]]>
-            </line>
-            <line>
-              <![CDATA[user entered value]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test1232 -->
-      </class> <!-- org.testcase.TC123456_SingupUserValidation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Test343 -->
+      </class> <!-- org.testcase.Tc12233_SearchData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

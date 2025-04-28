@@ -13,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
@@ -25,13 +26,30 @@ public class CommonAction {
 	public static int sn=1;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	public void launchBrowser()
+	public void launchBrowser(String bname) //chrome
 	{
 		
+		if(bname.equals("chrome"))
+		{WebDriverManager.chromedriver().setup();//version download use
+		 driver = new ChromeDriver();}
+		
+		if(bname.equals("edge"))
+		{
+		WebDriverManager.edgedriver().setup();
+		driver=new EdgeDriver();
+		}
+		 System.out.println("browser launched");
+		 Reporter.log("browser launched");
+		
+	}
+	
+	public void launchBrowser() //chrome
+	{
+		
+	
 		WebDriverManager.chromedriver().setup();//version download use
-		//WebDriverManager.edgedriver().setup();
-		//System.setProperty("webdriver.chrome.driver", ".//data//chromedriver.exe");
 		 driver = new ChromeDriver();
+		
 		 System.out.println("browser launched");
 		 Reporter.log("browser launched");
 		
